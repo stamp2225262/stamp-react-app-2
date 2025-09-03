@@ -19,14 +19,14 @@ export default function Card({city} : {city:any}){
     
                     <p className="text-gray-600 text-sm mt-2">{city.Description}</p>
     
-                    <div className="mt-10 text-gray-500 text-sm space-y-1">
-                      <p><span className="font-semibold">Code:</span> {city.Code}</p>
-                      <p><span className="font-semibold">Rank:</span> {city.Rank}</p>
-                      <p><span className="font-semibold">Author:</span> {city.Author}</p>
-                      <p><span className="font-semibold">Source:</span> {city.Source}</p>
-                      <p><span className="font-semibold">Location:</span> {city.Location}</p>
-                      <p><span className="font-semibold">Rating:</span> {city.Rating} ล้านคนนักท่องเที่ยวที่เข้ามาภายในประเทศ</p>
-                      <p><span className="font-semibold">Top3:</span> {(city.Rank >= 1 && city.Rank <= 3) ? "✅ true" : "❌ false"}</p>
+                    <div className="mt-10 text-gray-500 text-sm space-y-1 font-semibold">
+                      <p>Code:{city.Code}</p>
+                      <p>Rank:{city.Rank}</p>
+                      <p>Author: {city.Author}</p>
+                      <p>Source: {city.Source}</p>
+                      <p>Location: {city.Location}</p>
+                      <p>Rating: {city.Rating} ล้านคนนักท่องเที่ยวที่เข้ามาภายในประเทศ</p>
+                      <p>Top3:{(city.Rank >= 1 && city.Rank <= 3) ? "✅ true" : "❌ false"}</p>
                     </div>
                   </div>
                 </div>
