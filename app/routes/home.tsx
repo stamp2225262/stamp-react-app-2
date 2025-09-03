@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen py-10 px-6 bg-gradient-to-br from-blue-50 via-white to-white">
+    <div className="min-h-screen py-10 px-6 bg-white">
       
       <Header messenger="🌏 5 อันดับเมืองที่มีนักท่องเที่ยวเข้ามามากที่สุดในโลก ในปี 2024🌏"/>
 

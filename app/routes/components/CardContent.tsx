@@ -3,7 +3,6 @@ export default function Card({city} : {city:any}){
 
      return (
                 <div
-                  key={city.Code}
                   className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-700"
                 >
                   <img
